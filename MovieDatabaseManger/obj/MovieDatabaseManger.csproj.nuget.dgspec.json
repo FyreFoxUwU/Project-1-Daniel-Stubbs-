@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Libraries\\Desktop\\Movie Database Manager\\MovieDatabaseMangerPrototype\\MovieDatabaseManger\\MovieDatabaseManger.csproj": {}
+  },
+  "projects": {
+    "D:\\Libraries\\Desktop\\Movie Database Manager\\MovieDatabaseMangerPrototype\\MovieDatabaseManger\\MovieDatabaseManger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Libraries\\Desktop\\Movie Database Manager\\MovieDatabaseMangerPrototype\\MovieDatabaseManger\\MovieDatabaseManger.csproj",
+        "projectName": "MovieDatabaseManger",
+        "projectPath": "D:\\Libraries\\Desktop\\Movie Database Manager\\MovieDatabaseMangerPrototype\\MovieDatabaseManger\\MovieDatabaseManger.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "D:\\Libraries\\Desktop\\Movie Database Manager\\MovieDatabaseMangerPrototype\\MovieDatabaseManger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "IMDbApiLib": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
